@@ -888,8 +888,10 @@ reconstruction into deep network design for this specific task.<o:p></o:p></span
 <p class=MsoNormal style='text-indent:10.5pt;mso-char-indent-count:1.0'><span
 lang=EN-US style='mso-bidi-font-size:12.0pt;font-family:"Times New Roman",serif'>To
 alleviate these issues, in this paper, we propose a model-driven MRI
-reconstruction network with unknown sampling pattern, called <span
-class=SpellE>MXNet</span>. Specifically, based on the MRI physical imaging
+reconstruction network called <span
+class=SpellE>MXNet</span>, which considers the relationship between the undersampling
+pattern and imaging by encoding the mask into the network.
+Specifically, based on the MRI physical imaging
 process, we first jointly optimize the down-sampling pattern and the
 high-resolution MRI reconstruction. Then based on the proposed optimization
 algorithm and the deep unfolding technique, we correspondingly construct the
